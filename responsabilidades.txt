@@ -1,0 +1,14 @@
+pedir_int, validar_int, pedir_str, validar_str: Carpi, José y Juli.
+
+validar_motivo_viaje: José
+
+validar_estrellas: Carpi
+
+validar_presupuesto: Juli
+
+validar_huespedes_dias: Juli/ thiago(?
+
+seleccionar_check_in: José
+
+hoteles.py, reglas.py: Juli
+
