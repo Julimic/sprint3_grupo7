@@ -1,0 +1,15 @@
+calculos_generales:
+
+estadísticas:
+
+hoteles: contiene las variables de los hoteles.
+
+input:	contiene las funciones de ingreso y validación de los distintos datos.
+
+main:
+
+print_estadistica: contiene el print de todas las estadísticas.
+
+print:	contiene el print final de la recomendación.
+
+reglas: contiene las funciones de recomendación en base a las estrellas y condiciones. 
