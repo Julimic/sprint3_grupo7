@@ -20,4 +20,3 @@ HOTEL_10 = "Hotel 10"
 HOTEL_11 = "Hotel 11"
 HOTEL_12 = "Hotel 12"
 HOTEL_13 = "Hotel 13"
-

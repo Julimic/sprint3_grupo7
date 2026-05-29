@@ -56,3 +56,19 @@ def grafico_cinco_columnas(hotel_1_es: int, hotel_2_es: int, hotel_3_es: int, ho
         mensaje_final += linea + "\n"
     
     return mensaje_final + "1⭐ 2⭐ 3⭐ 4⭐ 5⭐"
+
+
+if estrellas == 1:
+    hotel_1_es += 1
+        
+elif estrellas == 2:
+    hotel_2_es += 1
+        
+elif estrellas == 3:
+    hotel_3_es += 1
+        
+elif estrellas == 4:
+    hotel_4_es += 1
+        
+elif estrellas == 5:
+    hotel_5_es += 1
