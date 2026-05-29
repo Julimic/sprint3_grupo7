@@ -17,7 +17,7 @@ def validar_int (dato : str) -> int:
 
 
     while True:
-        
+
         es_int = True
 
         for i in dato:
@@ -28,8 +28,7 @@ def validar_int (dato : str) -> int:
                 return int(dato)
 
             else:
-                print("No es un número entero")
-                dato = pedir_int("Ingrese un número entero: ")
+                dato = pedir_int("Error. Debe ingresar un número entero: ")
 
                 break
 
@@ -129,7 +128,6 @@ def validar_estrellas(numero_ingresado : int , numero_actual = 5) -> int:
     else:
         return validar_estrellas(numero_ingresado , numero_actual - 1)
 
-
 def validar_presupuesto (dato : str, presupuesto_minimo : int = 20) -> int:
 
     '''
@@ -168,7 +166,38 @@ def validar_huespedes_dias(dato: str, ingreso_minimo: int = 1) -> int:
     
     return numero_ingresado
 
+def seleccionar_check_in(mensaje : str, error : str) -> str:
 
+    while True:
+
+        check_in_elegido = pedir_int(mensaje)
+
+        match check_in_elegido:
+
+            case "14":
+                check_in_elegido = "Express - 14hs"
+                return check_in_elegido
+
+            case "20":
+                check_in_elegido = "Express - 20hs"
+                return check_in_elegido
+
+            case _:
+                print(error)
+
+
+menu = ('''
+Check in disponibles:
+
+-Express: 14hs
+-Regular: 20hs
+
+''')
+
+print(menu)
+
+check_in_elegido = seleccionar_check_in("Ingrese el horario que desee: ", "Error. Debe ingresar alguna de las dos opciones.")
+print(f"Su check-in es {check_in_elegido}.")
 
 
 estrellas = validar_estrellas(validar_int(pedir_int("ingrese un numero de estrellas (1-5)")))
