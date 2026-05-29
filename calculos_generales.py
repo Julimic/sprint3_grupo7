@@ -21,7 +21,7 @@ def grafico_cinco_columnas(hotel_1_es: int, hotel_2_es: int, hotel_3_es: int, ho
         valor_maximo = hotel_5_es
     
     if valor_maximo == 0:
-        return "No hay datos suficientes para mostrar el grÃ¡fico."
+        return "No hay datos suficientes para mostrar el gráfico."
 
     mensaje_final = ""
 
@@ -29,34 +29,33 @@ def grafico_cinco_columnas(hotel_1_es: int, hotel_2_es: int, hotel_3_es: int, ho
         linea = ""
         
         if hotel_1_es >= i:
-            linea += "â–ˆ "
+            linea += "█ "
         else:
             linea += "  "
             
         if hotel_2_es >= i:
-            linea += "â–ˆ "
+            linea += "█ "
         else:
             linea += "  "
             
         if hotel_3_es >= i:
-            linea += "â–ˆ "
+            linea += "█ "
         else:
             linea += "  "
             
         if hotel_4_es >= i:
-            linea += "â–ˆ "
+            linea += "█ "
         else:
             linea += "  "
             
         if hotel_5_es >= i:
-            linea += "â–ˆ "
+            linea += "█ "
         else:
             linea += "  "
         
         mensaje_final += linea + "\n"
     
-    return mensaje_final + "1â­ 2â­ 3â­ 4â­ 5â­"
-
+    return mensaje_final + "1⭐ 2⭐ 3⭐ 4⭐ 5⭐"
 
 if estrellas == 1:
     hotel_1_es += 1
