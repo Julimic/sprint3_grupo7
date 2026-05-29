@@ -9,7 +9,14 @@ def recomendar_cinco_estrellas(
                             ) -> str:
     
     '''
-    
+    # ¿Qué hace?
+        Filtra los datos ingresados por el usuario para una recomendación de hotel.
+        
+    # ¿Qué recibe?
+        Una serie de int y str.
+
+    # ¿Qué retorna?
+        Un str. 
     '''
 
     hotel_recomendado = ""
@@ -37,7 +44,14 @@ def recomendar_cuatro_estrellas(
                             ) -> str:
 
     '''
-    
+    # ¿Qué hace?
+        Filtra los datos ingresados por el usuario para una recomendación de hotel.
+        
+    # ¿Qué recibe?
+        Una serie de int y str.
+
+    # ¿Qué retorna?
+        Un str. 
     '''
 
     hotel_recomendado = ""
@@ -63,7 +77,14 @@ def recomendar_tres_estrellas(
     
 
     '''
-    
+    # ¿Qué hace?
+        Filtra los datos ingresados por el usuario para una recomendación de hotel.
+        
+    # ¿Qué recibe?
+        Una serie de int y str.
+
+    # ¿Qué retorna?
+        Un str. 
     '''
 
     hotel_recomendado = ""
@@ -91,7 +112,14 @@ def recomendar_dos_estrellas(
                             ) -> str:
     
     '''
-    
+    # ¿Qué hace?
+        Filtra los datos ingresados por el usuario para una recomendación de hotel.
+        
+    # ¿Qué recibe?
+        Una serie de int y str.
+
+    # ¿Qué retorna?
+        Un str. 
     '''
 
     hotel_recomendado = ""
@@ -114,7 +142,14 @@ def recomendar_una_estrella(
                             ) -> str:
     
     '''
-    
+    # ¿Qué hace?
+        Filtra los datos ingresados por el usuario para una recomendación de hotel.
+        
+    # ¿Qué recibe?
+        Una serie de int y str.
+
+    # ¿Qué retorna?
+        Un str. 
     '''
 
     hotel_recomendado = ""

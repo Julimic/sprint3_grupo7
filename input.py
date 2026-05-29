@@ -9,8 +9,10 @@ def validar_int (dato : str) -> int:
     '''
     # Qué hace? 
         Pide el ingreso de un entero y lo valida.
+
     # Qué recibe?
         Un número entero.
+
     # Qué retorna?
         El número entero ingresado.
     '''
@@ -133,8 +135,10 @@ def validar_presupuesto (dato : str, presupuesto_minimo : int = 20) -> int:
     '''
     # Qué hace?
         Valida que el ingreso del presupuesto esté dentro del mínimo permitido.
+
     # Qué recibe?
         Un string.
+
     # Qué retorna?
         El número de presupuesto como int(?)
     '''
@@ -152,8 +156,10 @@ def validar_huespedes_dias(dato: str, ingreso_minimo: int = 1) -> int:
     '''
     # Qué hace?
         Valida el ingreso mínimo de un int.
+
     # Qué recibe?
         Un string.
+
     # Qué retorna?
         Un int.
     '''
@@ -167,6 +173,17 @@ def validar_huespedes_dias(dato: str, ingreso_minimo: int = 1) -> int:
     return numero_ingresado
 
 def seleccionar_check_in(mensaje : str, error : str) -> str:
+
+    '''
+    # Qué hace?
+        Matchea el horario de check-in.
+
+    # Qué recibe?
+        Un string.
+
+    # Qué retorna?
+        Un string.
+    '''
 
     while True:
 
