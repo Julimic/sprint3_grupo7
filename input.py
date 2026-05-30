@@ -4,6 +4,12 @@ def pedir_int(mensaje : str) -> str:
 
     return dato
 
+def pedir_str(mensaje : str) -> str: 
+
+    dato = input(mensaje)
+    
+    return dato
+
 def validar_int (dato : str) -> int:
 
     '''
@@ -33,12 +39,6 @@ def validar_int (dato : str) -> int:
                 dato = pedir_int("Error. Debe ingresar un número entero: ")
 
                 break
-
-def pedir_str(mensaje : str) -> str: 
-
-    dato = input(mensaje)
-    
-    return dato
 
 def validar_str (dato : str) -> str:
 
@@ -206,10 +206,3 @@ def seleccionar_check_in(mensaje : str, error : str) -> str:
             case _:
                 print(error)
 
-def mostrar_menu_check_in():
-    print("""
-Check in disponibles:
-
-- Express: 14hs
-- Regular: 20hs
-""")

@@ -1,10 +1,17 @@
-from main import *
-from input import *
-
 def mostrar_dato(mensaje : str
                 , dato) -> None:
     
-    print(f"{mensaje}: {dato}")
+    print(f"{mensaje} {dato}")
+
+
+def mostrar_menu_check_in():
+    print("""
+Check in disponibles:
+
+- Express: 14hs
+- Regular: 20hs
+""")
+
 
 def mostrar_recomendacion(hotel_recomendado : str,
                         nombre : str,
@@ -12,7 +19,7 @@ def mostrar_recomendacion(hotel_recomendado : str,
                         presupuesto : int,
                         estrellas : int,
                         motivo_viaje : str,
-                        check_in_elegido : str):
+                        check_in_elegido : str) -> str | None:
 
     print()
     print(f"Hola {nombre} {apellido}👋🏻")
@@ -38,14 +45,6 @@ def mostrar_recomendacion(hotel_recomendado : str,
 
     print()
 
-def mostrar_menu_check_in():
-    print(('''
-    Check in disponibles:
-
-    -Express: 14hs
-    -Regular: 20hs
-
-    '''))
 
 
 
